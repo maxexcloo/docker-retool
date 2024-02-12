@@ -1,4 +1,3 @@
 #!/bin/bash
-cd /app/retool
-python retool.py --update
-python retool.py "$@"
+python /app/retool/retool.py --update
+python /app/retool/retool.py "$@"
