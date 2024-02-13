@@ -1,4 +1,5 @@
 FROM python:3
+ENV DEBIAN_FRONTEND=noninteractive
 ADD entrypoint.sh /app/entrypoint.sh
 RUN chmod +x /app/entrypoint.sh
 RUN apt update && \
